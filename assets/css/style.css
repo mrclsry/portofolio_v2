@@ -289,5 +289,28 @@ body:not(.dark) .home.jumbotron {
 }
 
 .bx.bxl-github {
-  font-size: 5em;
+  font-size: 4em;
+  color: rgb(0, 0, 0);
+}
+
+.bx.bxl-instagram {
+  font-size: 4em;
+  color: rgb(0, 0, 0);
+}
+
+.bx.bxl-linkedin-square {
+  font-size: 4em;
+  color: rgb(0, 0, 0);
+}
+
+.bx.bxl-linkedin-square:hover {
+  color: var(--toggle-color);
+}
+
+.bx.bxl-github:hover {
+  color: var(--toggle-color);
+}
+
+.bx.bxl-instagram:hover {
+  color: var(--toggle-color);
 }
