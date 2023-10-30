@@ -314,3 +314,15 @@ body:not(.dark) .home.jumbotron {
 .bx.bxl-instagram:hover {
   color: var(--toggle-color);
 }
+
+body.dark .bx.bxl-instagram {
+  color: var(--toggle-color);
+}
+
+body.dark .bx.bxl-github {
+  color: var(--toggle-color);
+}
+
+body.dark .bx.bxl-linkedin-square {
+  color: var(--toggle-color);
+}
