@@ -326,3 +326,27 @@ body.dark .bx.bxl-github {
 body.dark .bx.bxl-linkedin-square {
   color: var(--toggle-color);
 }
+
+/* Sidebar on Small Screens */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 88px;
+  }
+
+  .sidebar.close {
+    width: 88px;
+  }
+
+  .sidebar .text {
+    display: none;
+  }
+
+  .sidebar header .toggle {
+    right: 5px;
+  }
+
+  .home {
+    left: 88px;
+    width: calc(100% - 88px);
+  }
+}
